@@ -1,0 +1,16 @@
+{
+    "appenders": [
+      {
+        "type": "file",
+        "filename": "/abc/abc.log",
+        "maxLogSize": 20480,
+        "numBackups": 5,
+        "compress": true,
+        "encoding": "utf-8",
+        "flags": "w+"
+      },
+      {
+        "type": "stdout"
+      }
+    ]
+  }

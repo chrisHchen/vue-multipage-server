@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>test2</title>
+    <link rel="stylesheet" href="//unpkg.com/element-ui@1.0.6/lib/theme-default/index.css">
+    <% if (NODE_ENV !== 'development') { %>
+      <link rel="stylesheet" href='<%= '/static/css/' + bundle + '.css' %>'>
+    <% } %>
+  </head>
+  <body>
+    <% include ../../template/header.ejs %>
+    <div id="app"></div>
+    <% include ../../template/footer.ejs %>
+  </body>
+  <% if (NODE_ENV !== 'development') { %>
+    <script src='<%= '/static/js/vendor.js' %>'></script>
+  <% } %>
+  <script src='<%= '/static/js/' + bundle + '.js' %>'></script>
+</html>

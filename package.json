@@ -1,0 +1,11 @@
+{
+  "name": "vue-multipage-webpack-server-ejs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "Keywords":["vue", "webpack", "ejs", "element-ui"],
+  "description": "Vue multipage setup with Webpack hot-reload, css extraction, together with node server side logic.",
+  "scripts": {
+    "docs": "cd docs && gitbook serve",
+    "deploy-docs": "bash ./deploy-docs.sh"
+  }
+}
