@@ -1,5 +1,6 @@
 # za-tech-admin
 
+- 下载本模板 vue init chrisHchen/vue-multipage-server yourProjectName (需预先安装vue-cli)
 
 ## 基本开发流程
 
